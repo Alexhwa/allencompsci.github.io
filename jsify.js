@@ -33,13 +33,17 @@ var specialify = function(text) {
 };
 
 var data = {
-	hello: "Allen Computer Science aims to " + specialify("promote Computer Science, development and innovation") + "\n\tin the Allen community by providing " + specialify("an place to soar") + " to those interested in\n\tfurthering their pursuit of the field and attending " + specialify("competitions") + " ranging\n\tfrom " + specialify("hackathons") + " to " + specialify("algorithm contests") + ".",
+	
+	about: "Allen Computer Science aims to " + specialify("promote Computer Science, development and innovation") + "\n\tin the Allen community by providing " + specialify("a place to soar") + " to those interested in\n\tfurthering their pursuit of the field and attending " + specialify("competitions") + " ranging\n\tfrom " + specialify("hackathons") + " to " + specialify("algorithm contests") + ".",
 	help: [{
 		name: specialify("help"),
 		description: "Display all commands"
 	}, {
 		name: specialify("hello"),
 		description: "Display introduction message"
+	}, {
+		name: specialify("about us"),
+		description: "Information about us"
 	}, {
 		name: specialify("team"),
 		description: "Teacher : " + Teacher + "| Club President : " + ClubPresident + " | Club Vice President : " + ClubVP + " | Secratary : " + Secretary
@@ -78,12 +82,6 @@ var data = {
 	}, {
 		name: specialify("Deep") + " Desai",
 		position: "Secretary"
-	},{
-		name: specialify("Historian") + " Ryan",
-		position: "Ryan"
-	},{
-		name: specialify("Ryan") + " King",
-		position: "Money Man"
 	}
 	       
 	      ],
